@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+header {
+  background-color: #1f2235;
+  padding: 20px 80px;
+  position: fixed;
+  width: 100%;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+}
+
+.horz {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItem {
+  list-style: none;
+  margin-right: 24px;
+}
+
+.navItem a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navItem a:hover {
+  color: #ff4A57;
+}
+
+#brandLogo {
+  width: 120px;
+}
+
+/* home section style */
+#home {
+  background-color: #24263b;
+  padding: 80px;
+}
+
+#socialIcons {
+  justify-content: flex-start;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  text-align: center;
+  border: 2px solid #ff4A57;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #ff4A57;
+  cursor: pointer;
+}
+
+#portfolio {
+  background-color: #ff4A57;
+  width: 150px;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+
+#contact {
+  background-color: #24263b;
+  width: 150px;
+  color: #ff4A57;
+  padding: 10px 10px;
+  border-color: #ff4A57;
+  border-radius: 25px;
+  border-width: 3px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
+
+#services {
+  background-color: #1f2235;
+  padding: 80px;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  background-color: #24263b;
+  border-radius: 14px;
+  border: 2px solid #ff4A57;
+  margin-bottom: 28px;
+  vertical-align: middle;
+  transition: transform 1.6s;
+  align-items: center !important;
+}
+
+.card:hover {
+  background-color: #ff4A57;
+}
+
+.card i {
+  font-size: 46px;
+  padding: 80px;
+  flex-wrap: wrap;
+  display: flex;
+  transition: 0.8s linear;
+  transform: rotateY(0);
+}
+
+.card i:hover {
+  transform: rotateY("360deg");
+}
+
+.portfolioBtn {
+  background-color: #24263b;
+  border-radius: 24px;
+  width: 180px;
+  height: 58px;
+  font-weight: 800;
+}
+
+#playBtn {
+  background-color: #ff4A57;
+  padding: 14px 48px;
+  font-size: 18px;
+  border-radius: 24px;
+  height: 58px;
+  border: none;
+  cursor: pointer;
+}
+
+#title-block {
+  text-align: center;
+}
+
+#title-block h5 {
+  color: #ff4A57;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+#title-block p {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+
+/*# sourceMappingURL=main.css.map */

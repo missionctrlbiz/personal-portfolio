@@ -5,55 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Portfolio</title>
     <script src="https://kit.fontawesome.com/3733f30700.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header></header>
+    <header id="header" class="horz">
+        <div id="brand">
+                <img id="brandLogo" src="img/logo.png" alt="Personal Portfolio">
+        </div>
+        <nav>
+            <ul class="horz">
+                <li class="navItem"><a href="#home">Home</a></li>
+                <li class="navItem"><a href="#services">Services</a></li>
+                <li class="navItem"><a href="#about">About</a></li>
+                <li class="navItem"><a href="#skills">Skills</a></li>
+                <li class="navItem"><a href="#portfolio">Portfolio</a></li>
+                <li class="navItem"><a href="#blog">Blog</a></li>
+                <li class="navItem"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
-        <!-- home section  -->
-        <section id="home">
-            <div id="desc">
-                <div id="socials">
-                    <div id="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </div>
-                    <div id="icon">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </div>
-                    <div id="icon">
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                    <div id="icon">
-                        <i class="fa-brands fa-behance"></i>
-                    </div>
-                    <div id="icon">
-                        <i class="fa-brands fa-pinterest-p"></i>
-                    </div>
-                    <br>
-                    <div id="intro">                        
-                    <h2>I am Jonathan Doe</h2>
-                    <br>
-                    <p>i'm Jonathan, professional web developer with long time experience in this field​</p>
-                    </div>
-                    <button id="portfolio"></button>Portfolio</button>
-                    <button id="contact"></button>Contact Me</button>
+          <!-- home section -->
+          <section id="home" class="horz">
+            <div id="leftcon">
+                <div id="socialIcons" class="horz">
+                    <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div class="icon"><i class="fa-brands fa-pinterest-p"></i></div>
+                    <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="icon"><i class="fa-brands fa-behance"></i></div>
+                </div>
+                <div id="text">
+                    <h1 class="sectionTitle">I am Jonathan Doe</h1>
+                    <p class="sectionP">I'm Jonathan, professional web developer with long time experience in this field​</p>
+                </div>
+                <div id="actionBtn">
+                    <button class="icon portfolioBtn">My Portfolio</button>
+                    <button id="playBtn"><i class="fa-solid fa-play"></i></button>
                 </div>
             </div>
-            <div id="man" align="right">
+
+            <div id="rightCon">
                 <img src="img/man-01.png" alt="Man">
             </div>
         </section>
-        
-
 
         <!-- services section  -->
         <section id="services">
+            <div id="title-block">
+                <h5>SERVICES</h5>
+                <h1>My Services</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+            </div>
 
+            <div class="row horz">
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-paint-brush"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+            </div>
+            <div class="row horz">
+                <div class="card">
+                    <i class="fa-solid fa-mobile-alt"></i>
+                    <h3>App Developing</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Video Editing</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-search-dollar"></i>
+                    <h3>SEO Expart</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+            </div>
         </section>
         
         
         <!-- about section  -->
         <section id="about">
+            <h1>About Me</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+            <hr>
 
         </section>
         <!-- skills section  -->
